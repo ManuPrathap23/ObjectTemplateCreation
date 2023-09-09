@@ -1,0 +1,151 @@
+﻿{
+    "objectHierarchy": [
+
+        {
+            "name": "SampleGO",
+            "localPosition": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "localScale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "Children": [
+                {
+                    "name": "Child1",
+                    "localPosition": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "localRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "localScale": {
+                        "x": 3.0,
+                        "y": 2.0,
+                        "z": 3.0
+                    },
+                    "Children": [
+                        {
+                            "name": "Child11",
+                            "localPosition": {
+                                "x": 1.0,
+                                "y": 1.0,
+                                "z": 1.0
+                            },
+                            "localRotation": {
+                                "x": 0.0,
+                                "y": 0.0,
+                                "z": 0.0,
+                                "w": 0.0
+                            },
+                            "localScale": {
+                                "x": 3.0,
+                                "y": 2.0,
+                                "z": 3.0
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "name": "Child2",
+                    "localPosition": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "localRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "localScale": {
+                        "x": 3.0,
+                        "y": 2.0,
+                        "z": 3.0
+                    }
+                }
+
+            ]
+        },
+
+        {
+            "name": "SampleGO2",
+            "localPosition": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            },
+            "localRotation": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.0
+            },
+            "localScale": {
+                "x": 2.0,
+                "y": 2.0,
+                "z": 2.0
+            },
+            "Children": [
+                {
+                    "name": "Child1",
+                    "localPosition": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "localRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "localScale": {
+                        "x": 3.0,
+                        "y": 2.0,
+                        "z": 3.0
+                    }
+                },
+
+                {
+                    "name": "Child2",
+                    "localPosition": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "localRotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "localScale": {
+                        "x": 3.0,
+                        "y": 2.0,
+                        "z": 3.0
+                    }
+                }
+
+            ]
+        }
+
+    ]
+    
+}
