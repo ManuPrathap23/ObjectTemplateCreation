@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{34D2E64B-CAE0-E61D-0843-E201ED8D6603}|">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="076ebf1e-38dc-44a0-b002-94ab96d217ad" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/ObjectTemplateEditor.cs">
+    <Files>
+      <File FileName="Assets/Scripts/NewClass.cs" Line="3" Column="1" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="25" Column="10" />
+      <File FileName="Assets/Data/JSON/Object.json" Line="22" Column="25" />
+      <File FileName="Assets/Editor/NewClass.cs" Line="14" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UIObjectTemplate" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

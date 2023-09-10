@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/ObjectTemplate.cs" />
     <Compile Include="Assets/Scripts/ObjectParser.cs" />
+    <Compile Include="Assets\Editor\NewClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

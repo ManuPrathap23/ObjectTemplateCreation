@@ -1,151 +1,29 @@
-﻿{
-    "objectHierarchy": [
-
+{
+    "templates": [
         {
-            "name": "SampleGO",
-            "localPosition": {
+            "name": "SampleGo",
+            "position": {
                 "x": 1.0,
                 "y": 1.0,
-                "z": 1.0
+                "z": 0.0
             },
-            "localRotation": {
+            "rotation": {
                 "x": 0.0,
                 "y": 0.0,
                 "z": 0.0,
-                "w": 0.0
+                "w": 1.0
             },
-            "localScale": {
-                "x": 2.0,
-                "y": 2.0,
-                "z": 2.0
+            "scale": {
+                "x": 5.0,
+                "y": 5.0,
+                "z": 5.0
             },
-            "Children": [
-                {
-                    "name": "Child1",
-                    "localPosition": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "localRotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 0.0
-                    },
-                    "localScale": {
-                        "x": 3.0,
-                        "y": 2.0,
-                        "z": 3.0
-                    },
-                    "Children": [
-                        {
-                            "name": "Child11",
-                            "localPosition": {
-                                "x": 1.0,
-                                "y": 1.0,
-                                "z": 1.0
-                            },
-                            "localRotation": {
-                                "x": 0.0,
-                                "y": 0.0,
-                                "z": 0.0,
-                                "w": 0.0
-                            },
-                            "localScale": {
-                                "x": 3.0,
-                                "y": 2.0,
-                                "z": 3.0
-                            }
-                        }
-                    ]
-                },
-
-                {
-                    "name": "Child2",
-                    "localPosition": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "localRotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 0.0
-                    },
-                    "localScale": {
-                        "x": 3.0,
-                        "y": 2.0,
-                        "z": 3.0
-                    }
-                }
-
-            ]
-        },
-
-        {
-            "name": "SampleGO2",
-            "localPosition": {
-                "x": 1.0,
-                "y": 1.0,
-                "z": 1.0
-            },
-            "localRotation": {
-                "x": 0.0,
-                "y": 0.0,
-                "z": 0.0,
-                "w": 0.0
-            },
-            "localScale": {
-                "x": 2.0,
-                "y": 2.0,
-                "z": 2.0
-            },
-            "Children": [
-                {
-                    "name": "Child1",
-                    "localPosition": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "localRotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 0.0
-                    },
-                    "localScale": {
-                        "x": 3.0,
-                        "y": 2.0,
-                        "z": 3.0
-                    }
-                },
-
-                {
-                    "name": "Child2",
-                    "localPosition": {
-                        "x": 1.0,
-                        "y": 1.0,
-                        "z": 1.0
-                    },
-                    "localRotation": {
-                        "x": 0.0,
-                        "y": 0.0,
-                        "z": 0.0,
-                        "w": 0.0
-                    },
-                    "localScale": {
-                        "x": 3.0,
-                        "y": 2.0,
-                        "z": 3.0
-                    }
-                }
-
-            ]
+            "color": {
+                "r": 0.849056601524353,
+                "g": 0.02803490310907364,
+                "b": 0.02803490310907364,
+                "a": 0.0
+            }
         }
-
     ]
-    
 }

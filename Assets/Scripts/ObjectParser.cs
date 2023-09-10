@@ -4,13 +4,13 @@ using System.IO;
 public class ObjectParser : MonoBehaviour
 {
     private Template objectTemplate;
-    public string fileName = "Assets/Data/JSON/object.json";
+    public string fileName = "";
 
     void Start()
     {
-        string jsonString = File.ReadAllText(fileName);
-        objectTemplate = CreateFromJSON(jsonString);
-        CreateObjectStructure();
+        //string jsonString = File.ReadAllText(fileName);
+        //objectTemplate = CreateFromJSON(jsonString);
+        //CreateObjectStructure();
     }
 
     public static Template CreateFromJSON(string jsonString)
