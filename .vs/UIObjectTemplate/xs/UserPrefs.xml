@@ -1,41 +1,29 @@
-﻿<Properties StartupConfiguration="{34D2E64B-CAE0-E61D-0843-E201ED8D6603}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+﻿<Properties StartupConfiguration="{51BC3947-A215-0880-10E8-4FFB974454E3}|">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/manuprathap/Downloads/Development Projects/Unity Dev/UIObjectTemplate/Assets/Editor/ObjectTemplateEditor.cs" relfile="Assets/Editor/ObjectTemplateEditor.cs" line="123" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="076ebf1e-38dc-44a0-b002-94ab96d217ad" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="48dd54ac-c059-4977-9241-e17a889202d8" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/ObjectTemplateEditor.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="48dd54ac-c059-4977-9241-e17a889202d8" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ObjectTemplate.cs">
     <Files>
-      <File FileName="Assets/Scripts/NewClass.cs" Line="3" Column="1" />
-      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="14" Column="6" />
       <File FileName="Assets/Data/JSON/Object.json" Line="29" Column="2" />
-      <File FileName="Assets/Editor/NewClass.cs" Line="6" Column="1" />
+      <File FileName="Assets/Editor/ObjectTemplateEditor.cs" Line="19" Column="19" />
+      <File FileName="Assets/Scripts/ObjectTemplate.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="UIObjectTemplate">
             <Node name="Assets" expanded="True">
-              <Node name="Data" expanded="True">
-                <Node name="JSON" expanded="True" />
-              </Node>
-              <Node name="Editor" expanded="True">
-                <Node name="ObjectTemplateEditor.cs" selected="True" />
-              </Node>
-              <Node name="Scripts" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Editor" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State>
-          <Value>jsonContent</Value>
-        </State>
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
