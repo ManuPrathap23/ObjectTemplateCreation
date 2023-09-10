@@ -48,6 +48,10 @@ public class ObjectTemplateEditor : EditorWindow
         scrollPosition = EditorGUILayout.BeginScrollView(scrollPosition);
 
         jsonContent = EditorGUILayout.TextArea(jsonContent, GUILayout.ExpandHeight(true));
+        if (GUILayout.Button("Update JSON"))
+        {
+            UpdateJsonFromEditor(jsonContent);
+        }
 
         EditorGUILayout.Space();
 
@@ -162,6 +166,27 @@ public class ObjectTemplateEditor : EditorWindow
             Debug.LogWarning("JSON file not found at path: " + jsonFilePath);
             jsonContent = "";
         }
+    }
+
+    /// <summary>
+    /// Update the Json file when there is any update in the editor text area.
+    /// </summary>
+    /// <param name="jsonContent"> json content from the editor text area.</param>
+    private void UpdateJsonFromEditor(string jsonContent)
+    {
+        // Update our local class members.
+        var container = JsonUtility.FromJson<TemplateContainer>(jsonContent);
+        if (container != null)
+        {
+            templates = container.templates;
+        }
+        else
+        {
+            templates = new List<ObjectTemplate>();
+        }
+
+        // Write it to the files now.
+        SaveJSON();
     }
 
     /// <summary>
