@@ -15,5 +15,7 @@ with the specified properties in the current scene.
 How to use:
 
 1.Once you load the scene, you can see the menu option GG on your menu bar. When you click it, you will see an option "Object Template Editor". 
+
 2.You can see an option to create a new template and a button to save the data into your JSON. 
+
 3. Once it is stored, you will the template above, where you will be given an option to create. On clicking create, a new GO with that properties will be instantiated on the scene. 
