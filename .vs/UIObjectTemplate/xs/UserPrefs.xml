@@ -2,25 +2,38 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/manuprathap/Downloads/Development Projects/Unity Dev/UIObjectTemplate/Assets/Editor/ObjectTemplateEditor.cs" relfile="Assets/Editor/ObjectTemplateEditor.cs" line="123" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="076ebf1e-38dc-44a0-b002-94ab96d217ad" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/ObjectTemplateEditor.cs">
     <Files>
       <File FileName="Assets/Scripts/NewClass.cs" Line="3" Column="1" />
-      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="25" Column="10" />
-      <File FileName="Assets/Data/JSON/Object.json" Line="22" Column="25" />
-      <File FileName="Assets/Editor/NewClass.cs" Line="14" Column="6" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="14" Column="6" />
+      <File FileName="Assets/Data/JSON/Object.json" Line="29" Column="2" />
+      <File FileName="Assets/Editor/NewClass.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="UIObjectTemplate" expanded="True">
+          <Node name="UIObjectTemplate">
             <Node name="Assets" expanded="True">
-              <Node name="Editor" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="JSON" expanded="True" />
+              </Node>
+              <Node name="Editor" expanded="True">
+                <Node name="ObjectTemplateEditor.cs" selected="True" />
+              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>jsonContent</Value>
         </State>
       </Pad>
     </Pads>
